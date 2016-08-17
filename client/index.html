@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MVC-Pattern">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>MVC Pattern</title>
+
+
+
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="libs/angular-loading-bar/build/loading-bar.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/stilovi.css">
+
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/angular/angular.min.js"></script>
+
+	<script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="libs/angular-resource/angular-resource.min.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="libs/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+	<script src="libs/angular-animate.min.js"></script>
+	
+	<!-- Dynamic javascript files for your custom modules... -->
+
+	<script type="text/javascript" src="js/modules/welcome/welcome.module.js"></script>
+	<script type="text/javascript" src="js/modules/welcome/welcome.service.js"></script>
+	<script type="text/javascript" src="js/modules/welcome/welcome.controller.js"></script>
+
+	<script type="text/javascript" src="js/modules/homepage/homepage.module.js"></script>
+	<script type="text/javascript" src="js/modules/homepage/homepage.service.js"></script>
+	<script type="text/javascript" src="js/modules/homepage/homepage.controller.js"></script>
+
+	<script src="js/appRoutes.js"></script>
+	<script src="js/app.js"></script>
+	
+<!-- 	<style>
+		.search_check_box {
+			color: #fe6d3f;
+			font-size: 16px;
+			font-weight: bolder;
+			margin-left: 41%;
+		}
+	
+	</style> -->
+</head>
+
+<body >
+	<header class="main-header">
+		<div class="container">
+			<p> MVC Pattern in NODE.JS - BlueROR LLC</p>
+		</div>
+	</header>
+	<div ui-view></div>
+	<footer class="main-footer">
+		<div class="container">
+			<p> &copy; 2016 - BlueROR LLC. All Right Reserved. </p>
+		</div>
+	</footer>
+</body>
+</html>

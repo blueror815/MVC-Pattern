@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+  height: 100%;
+}
+body {
+  float: left;
+  min-height: 100%;
+  padding-bottom: 0px;
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 240px;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+.main-footer {
+    background-color: #353535;
+    bottom: 0;
+    float: left;
+    padding: 20px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.main-header {
+    background-color: #353535;
+    top: 0;
+    float: left;
+    padding: 20px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.main-header p {font-size:14px; text-align:center;color:#fff;margin:0px;}
+
+.main-footer p {font-size:14px; text-align:center;color:#fff;margin:0px;}
